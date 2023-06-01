@@ -677,8 +677,8 @@ with tab1:
     df_base100.index = pd.to_datetime(df_base100.index, dayfirst=True)
 
     # Image
-    st.image('/Users/jacques/Library/Mobile Documents/com~apple~CloudDocs/Projets/Analyse fonds/SRC/Img.gif',
-             use_column_width=True)
+    # st.image('Img.gif',
+    #          use_column_width=True)
 
 
 ######################################################################################################
