@@ -677,8 +677,8 @@ with tab1:
     df_base100.index = pd.to_datetime(df_base100.index, dayfirst=True)
 
     # Image
-    # st.image('Img.gif',
-    #          use_column_width=True)
+    st.image('/Jacques2101/Img.gif',
+              use_column_width=True)
 
 
 ######################################################################################################
