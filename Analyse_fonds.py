@@ -562,18 +562,20 @@ colors = {k: v for k, v in zip(
     desc.FUND_ASSET_CLASS_FOCUS.unique(), px.colors.qualitative.Set1)}
 
 # Gestion des différents onglets
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(["Paramètres",
-                                                               "Liste des sociétés de gestion",
-                                                               "Classement des fonds",
-                                                               "Analyse société de gestion",
-                                                               "Analyse fonds vs indice",
-                                                               "Statistiques",
-                                                               "Analyse de style",
-                                                               "Update base de données"
-                                                               ]
-                                                         )
+intro, tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs(["Introduction", 
+                                                                 "Paramètres",
+                                                                 "Liste des sociétés de gestion",
+                                                                 "Classement des fonds",
+                                                                 "Analyse société de gestion",
+                                                                 "Analyse fonds vs indice",
+                                                                 "Statistiques",
+                                                                 "Analyse de style",
+                                                                 "Update base de données"
+                                                                 ]
+                                                                )
 
-
+with intro: 
+    st.write('Introduction')
 ##############################################################################
 ########################### Onglet Paramètres ################################
 ##############################################################################
